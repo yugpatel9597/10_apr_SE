@@ -1,0 +1,8 @@
+#include<stdio.h>
+int main()
+{
+printf("yug patel\n");
+printf("10 september 2005\n");
+printf("18 years old\n");
+printf("triveni society, sant kabir road,rajkot\n");
+}
