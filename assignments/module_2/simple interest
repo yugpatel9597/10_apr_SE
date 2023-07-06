@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main()
+{
+    float principle, time, rate, si, ci;
+    printf("\nenter the principle amount:");
+    scanf("%f",&principle);
+    printf("\nenter the time in years:");
+    scanf("%f",&time);
+    printf("\nenter the rate of intrest:");
+    scanf("%f",&rate);
+    si = (principle* time* rate) / 100;
+    ci = principle * (pow(1 + rate / 100, time)) - principle;
+    printf("the simple intrest is:%f",si);
+    printf("the compound intrest is:%f",ci);
+
+}
