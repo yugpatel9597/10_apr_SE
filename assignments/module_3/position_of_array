@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main()
+{   
+    int n;
+    int arr[5] = {23,43,54,20,76};
+    printf("enter the index:");
+    scanf("%d",&n);
+    printf("%d",arr[n]);
+}
